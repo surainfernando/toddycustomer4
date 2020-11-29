@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BottleDetails">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="Bottle Details" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="70dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="Manufacturer" />
+        <TextView
+            android:id="@+id/manuBox"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="70dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="Product Name" />
+        <TextView
+            android:id="@+id/nameBox"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="70dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="MFD" />
+        <TextView
+            android:id="@+id/mfdBox"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="70dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="Last Available Location" />
+        <TextView
+            android:id="@+id/laBox"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="Bottle History" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="70dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/date1"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="Last Available Location" />
+        <TextView
+            android:id="@+id/loc1"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="70dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/date2"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/loc2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="20dp"
+        android:text="Refresh"
+        android:onClick="click1"
+        />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
